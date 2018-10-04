@@ -5,11 +5,11 @@ const path = require('path');
 const app = express();
 
 // Use my projects static files
-app.use(express.static(__dirname + 'dist/publishangulartoheroku'));
+app.use(express.static(__dirname + '/dist'));
 
 // Targeting root project file
 app.get('/*', function (req, res) {
-    res.sendFile(path.join(__dirname + 'dist/publishangulartoheroku/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/publishangulartoheroku/index.html'));
 });
 
 // Server listening on port 4300
