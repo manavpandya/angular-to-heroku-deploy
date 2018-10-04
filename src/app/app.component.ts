@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'C#Corner - Publish Angular app to Heroku';
+  title = 'C#Corner - Publish Angular app to Heroku !!!';
 }
