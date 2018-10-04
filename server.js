@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 // Use my projects static files
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/dist/publishangulartoheroku'));
 
 // Targeting root project file
 app.get('/*', function (req, res) {
